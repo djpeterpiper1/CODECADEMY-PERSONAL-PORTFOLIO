@@ -4,19 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./CSS/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <section class="hero">
       <nav>
-        <h1>Peter Toussaint</h1>
-        <a href="#About">About Me</a>
-        <a href="#Project">Project</a>
-        <a href="#Skills">Skills</a>
-        <a href="./contact.html">Contact</a>
+        <ul id="nav-list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html#About">About Me</a></li>
+          <li><a href="./index.html#Projects">Projects</a></li>
+          <li><a href="./index.html#Skills">Skills</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fa fa-bars"></i>
+        </button>
       </nav>
-    </header>
-    <h2>Contact</h2>
-    <p>Let's Collaborate!</p>
+      <div class="contact">
+        <div class="contact-text">
+          <h1>Peter Toussaint</h1>
+          <p>Contact</p>
+          <p>Let's Collaborate</p>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/djpeterpiper1"><img class="socials-pic" src="./IMAGES/kisspng-github-computer-icons-icon-design-desktop-wallpape-5b3d3614612ed1.4650172215307381963981-2.png" alt=""></a>
+          <a href="https://twitter.com/PDevs1"><img class="socials-pic" src="./IMAGES/twitter-logo-on-black-background.png" alt=""></a>
+          <a href="mailto: dj.peterpiper1@gmail.com"><img class="socials-pic" src="./IMAGES/TK_email_icon.svg.png" alt=""></a>
+     
+        </div>
+       
+      </div>
+    </section>
+
   </body>
 </html>
